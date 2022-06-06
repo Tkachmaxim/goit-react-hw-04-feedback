@@ -1,0 +1,15 @@
+.buttons {
+    margin-left: 10px;
+}
+
+.button {
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: blue;
+}
