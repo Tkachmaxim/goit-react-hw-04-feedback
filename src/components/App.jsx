@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Statistics from './Statistics';
 import FeedackOptions from './FeedackOptions';
 import Section from './Section';
+import Notification from './Notification';
 
 export class App extends Component {
   state = {
@@ -51,7 +52,9 @@ export class App extends Component {
             />
           </Section>
         ) : (
-          <Section title="No feedback given" />
+          <Section title="">
+            <Notification text="No feedback given" />
+          </Section>
         )}
       </div>
     );
